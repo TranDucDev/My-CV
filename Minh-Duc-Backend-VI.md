@@ -5,6 +5,16 @@
 Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | [LinkedIn](https://www.linkedin.com/in/tran-ngoc-minh-duc-521a30247/)
 
 ---
+### BẰNG CẤP 
+- Sortware engineer - Posts and Telecommunications Institute of Technology (PTIT) 
+---
+### KỸ NĂNG CHUYÊN MÔN 
+- Programming language : TypeScript, JavaScript, python, Java, Bash
+- Framework/lib : NestJS, Express, Sail, ReactJS, Nextjs, TailwindCSS
+- Database : Postgre, Mongodb, Redis
+- Devops & Tool : Docker, k8s, Jenkin, GitLap-CI, Jenkin
+- AWS service : EC2, IAM, S3, EKS, CloundWatch, Lambda
+---
 
 ## KINH NGHIỆM LÀM VIỆC
 
