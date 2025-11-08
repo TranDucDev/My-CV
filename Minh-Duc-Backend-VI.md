@@ -6,10 +6,11 @@ Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | [LinkedIn](https://www.l
 
 ---
 ### BẰNG CẤP 
-- Sortware engineer - Posts and Telecommunications Institute of Technology (PTIT) 
+- Sortware engineer - Posts and Telecommunications Institute of Technology (PTIT)
+- Toeic 650 
 ---
-### KỸ NĂNG CHUYÊN MÔN 
-- Programming language : TypeScript, JavaScript, python, Java, Bash
+### KỸ NĂNG CHUYÊN MÔN
+- Programming language : TypeScript, JavaScript, python, Java, Bash, Golang (basic)
 - Framework/lib : NestJS, Express, Sail, ReactJS, Nextjs, TailwindCSS
 - Database : Postgre, Mongodb, Redis
 - Devops & Tool : Docker, k8s, Jenkin, GitLap-CI, Jenkin
@@ -19,8 +20,7 @@ Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | [LinkedIn](https://www.l
 ## KINH NGHIỆM LÀM VIỆC
 
 ### Backend Developer | DevOps Engineer
-iArt Holding, Hà Nội
-*Tháng 2/2025 – Hiện tại*
+**iArt Holding, Hà Nội *(2/2025 – Hiện tại)***
 
 Công ty phát triển sản phẩm nội bộ trong lĩnh vực Print-on-Demand (POD), Drop-shipping & Thương mại điện tử
 
@@ -80,7 +80,26 @@ Công ty Giải pháp Phần mềm Tài chính
 
 ---
 
-## KỸ NĂNG KỸ THUẬT
+### DỰ ÁN CÁ NHÂN
+
+**Ghz store manager** – Hệ thống CRM quản lý
+
+- Xây dựng hệ thống giám sát hiệu suất real-time với tích hợp Prometheus và Grafana
+- Phát triển API gateway và middleware để thu thập metrics, tracing và logging
+- Thiết kế dashboard tùy chỉnh để theo dõi latency, throughput và error rate
+- Tích hợp alerting system để cảnh báo khi hệ thống vượt ngưỡng cho phép
+- Xây dựng test suite tự động để load testing và stress testing
+- Container hóa ứng dụng với Docker và triển khai CI/CD pipeline
+
+**CI/CD custom - hệ thống CICD sử dụng tất cả open source**
+
+- CICD : jenkin
+- Log : promethues , grafana 
+
+<!-- *Công nghệ: Node.js, NestJS, Prometheus, Grafana, Docker, GitLab CI/CD* -->
+---
+
+## THÔNG TIN KHÁC
 
 **Backend Development:**
 Node.js, NestJS, Java, Sails.js
