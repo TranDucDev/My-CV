@@ -1,4 +1,4 @@
-# TRAN NGOC MINH DUC
+# Trần Ngọc Minh Đức
 
 **Backend Developer | DevOps Engineer**
 
@@ -10,9 +10,9 @@ Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | [LinkedIn](https://www.l
 - Toeic 650 
 ---
 ### KỸ NĂNG CHUYÊN MÔN
-- Programming language : TypeScript, JavaScript, python, Java, Bash, Golang (basic)
+- Programming language : TypeScript, JavaScript, python, Java, Bash, Golang(basic)
 - Framework/lib : NestJS, Express, Sail, ReactJS, Nextjs, TailwindCSS
-- Database : Postgre, Mongodb, Redis
+- Database : Postgre, Mongodb, Redis, Kafka
 - Devops & Tool : Docker, k8s, Jenkin, GitLap-CI, Jenkin
 - AWS service : EC2, IAM, S3, EKS, CloundWatch, Lambda
 ---
@@ -22,7 +22,7 @@ Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | [LinkedIn](https://www.l
 ### Backend Developer | DevOps Engineer
 **iArt Holding, Hà Nội *(2/2025 – Hiện tại)***
 
-Công ty phát triển sản phẩm nội bộ trong lĩnh vực Print-on-Demand (POD), Drop-shipping & Thương mại điện tử
+*(Công ty phát triển sản phẩm nội bộ trong lĩnh vực Print-on-Demand (POD), Drop-shipping & Thương mại điện tử)*
 
 **Dự án: Vendor** – Hệ thống quản lý vận hành cho đại lý (15 site, 10k users, ~300k orders/tháng)
 
@@ -80,7 +80,7 @@ Công ty Giải pháp Phần mềm Tài chính
 
 ---
 
-### DỰ ÁN CÁ NHÂN
+### Dự án cá nhân
 
 **Ghz store manager** – Hệ thống CRM quản lý
 
@@ -122,4 +122,7 @@ Prometheus, Grafana
 **Architecture:**
 Microservices
 
+---
+
+### [DOWLOAD](https://url.dowload.com)
 ---

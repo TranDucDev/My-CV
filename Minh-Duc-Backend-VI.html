@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Tran Ngoc Minh Duc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 🎯 Nguyên tắc: Sans-serif cho tech CV, ưu tiên readability -->
+    <!-- Chọn một trong các font sans-serif dưới đây bằng cách uncomment -->
+
+    <!-- Option 1: Inter (Default - Highly Readable, Modern) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Option 2: Roboto (Clean, Excellent Readability) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
+
+    <!-- Option 3: Open Sans (Friendly, Professional, Readable) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> -->
+
+    <!-- Option 4: Source Sans Pro (Professional, Clear) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> -->
+
+    <!-- Option 5: System Fonts (No internet required, Optimized for OS) -->
+    <!-- Không cần link, sử dụng trực tiếp trong CSS -->
+
+    <style>
+        /* ===== FONT SELECTION ===== */
+        /* 🎯 Nguyên tắc: Font đồng nhất cho toàn bộ CV (hoặc tối đa 2: 1 cho heading, 1 cho body) */
+        /* Ưu tiên readability - Sans-serif cho tech CV */
+
+        /* Option 1: Inter (Default - Highly Readable, Modern) */
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        }
+
+        /* Option 2: Roboto (Clean, Excellent Readability) */
+        /* * {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        } */
+
+        /* Option 3: Open Sans (Friendly, Professional, Readable) */
+        /* * {
+            font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        } */
+
+        /* Option 4: Source Sans Pro (Professional, Clear) */
+        /* * {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        } */
+
+        /* Option 5: System Fonts (No internet required, Optimized for OS) */
+        /* * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        } */
+
+        /* Option 6: Arial (Standard, No internet required) */
+        /* * {
+            font-family: Arial, Helvetica, sans-serif;
+        } */
+
+        /* ===== LAYOUT & STYLING ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* 🎯 Kích cỡ: 10-11pt cho nội dung - tối ưu readability */
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+        }
+
+        h1 {
+            /* 🎯 Heading: 12-14pt (hoặc lớn hơn một chút cho tên) */
+            font-size: 18pt;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
+            line-height: 1.3;
+        }
+
+        h2 {
+            /* 🎯 Heading: 12-14pt */
+            font-size: 14pt;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #333;
+            padding-bottom: 4px;
+            color: #000;
+            line-height: 1.3;
+        }
+
+        h3 {
+            /* 🎯 Heading: 12-14pt */
+            font-size: 12pt;
+            font-weight: 600;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            color: #000;
+            line-height: 1.3;
+        }
+
+        p {
+            /* 🎯 Line-height tối ưu cho readability */
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            padding-left: 0;
+        }
+
+        li {
+            /* 🎯 Line-height tối ưu cho readability */
+            margin-bottom: 4px;
+            line-height: 1.5;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        em {
+            font-style: italic;
+            color: #555;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 12px 0;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                /* 🎯 Kích cỡ: 10-11pt cho nội dung khi in - tối ưu để fit 2 trang */
+                padding: 10mm;
+                font-size: 9.5pt;
+                line-height: 1.4;
+            }
+
+            @page {
+                margin: 0;
+                size: A4;
+            }
+
+            h1 {
+                /* 🎯 Heading: 12-14pt khi in */
+                font-size: 15pt;
+                margin-bottom: 4px;
+            }
+
+            h2 {
+                /* 🎯 Heading: 12-14pt khi in */
+                font-size: 11.5pt;
+                margin-top: 12px;
+                margin-bottom: 5px;
+                padding-bottom: 3px;
+            }
+
+            h3 {
+                /* 🎯 Heading: 12-14pt khi in */
+                font-size: 10.5pt;
+                margin-top: 8px;
+                margin-bottom: 4px;
+            }
+
+            p {
+                margin-bottom: 4px;
+                line-height: 1.4;
+            }
+
+            ul {
+                margin-bottom: 6px;
+            }
+
+            li {
+                margin-bottom: 2px;
+                line-height: 1.4;
+            }
+
+            hr {
+                margin: 8px 0;
+            }
+
+            /* Tránh break page trong section */
+            h2,
+            h3 {
+                page-break-after: avoid;
+            }
+
+            ul {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Screen styles - Button để export PDF */
+        @media screen {
+            .export-btn {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #0066cc;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 600;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                z-index: 1000;
+            }
+
+            .export-btn:hover {
+                background: #0052a3;
+            }
+        }
+
+        @media print {
+            .export-btn {
+                display: none;
+            }
+        }
+
+        /* ===== TABLE OF CONTENTS ===== */
+        .toc {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            max-width: 200px;
+            max-height: 70vh;
+            overflow-y: auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            font-size: 11px;
+        }
+
+        .toc-title {
+            font-weight: 600;
+            font-size: 12px;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .toc-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc-item {
+            margin-bottom: 6px;
+        }
+
+        .toc-link {
+            color: #0066cc;
+            text-decoration: none;
+            display: block;
+            padding: 4px 0;
+            transition: color 0.2s;
+            line-height: 1.4;
+        }
+
+        .toc-link:hover {
+            color: #0052a3;
+            text-decoration: underline;
+        }
+
+        .toc-link.active {
+            color: #0052a3;
+            font-weight: 600;
+        }
+
+        /* Ẩn mục lục khi in */
+        @media print {
+            .toc {
+                display: none;
+            }
+        }
+
+        /* Responsive: Ẩn mục lục trên màn hình nhỏ */
+        @media screen and (max-width: 1200px) {
+            .toc {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button class="export-btn" onclick="window.print()">📄 Export PDF</button>
+
+    <!-- Table of Contents -->
+    <nav class="toc" id="tableOfContents">
+        <div class="toc-title">Mục lục</div>
+        <ul class="toc-list" id="tocList"></ul>
+    </nav>
+
+    <h1>TRẦN NGỌC MINH ĐỨC</h1>
+
+    <p><strong>Backend Developer | DevOps Engineer</strong></p>
+
+    <p>Hà Nội, Việt Nam | tranngocminhduc2411@gmail.com | <a
+            href="https://www.linkedin.com/in/tran-ngoc-minh-duc-521a30247/">LinkedIn</a></p>
+    <h2>BẰNG CẤP</h2>
+    <p><strong>Software Engineering</strong><br>
+        <em>Posts and Telecommunications Institute of Technology (PTIT)</em><br>
+        <strong>TOEIC 650</strong>
+    </p>
+
+    <h2>KỸ NĂNG CHUYÊN MÔN</h2>
+    <p><strong>Programming Language:</strong><br>
+        TypeScript, JavaScript, Python, Java, Bash, Golang (basic)</p>
+    <p><strong>Framework/Lib:</strong><br>
+        NestJS, Express, Sails, ReactJS, NextJS, TailwindCSS</p>
+    <p><strong>Database:</strong><br>
+        PostgreSQL, MongoDB, Redis, Kafka</p>
+    <p><strong>DevOps & Tools:</strong><br>
+        Docker, Kubernetes, Jenkins, GitLab CI</p>
+    <p><strong>AWS Services:</strong><br>
+        EC2, IAM, S3, EKS, CloudWatch, Lambda</p>
+
+    <!-- <h2>NGÔN NGỮ LẬP TRÌNH</h2>
+    <p><strong>Backend:</strong><br>
+        Node.js, NestJS, Java, Sails.js</p>
+    <p><strong>Database:</strong><br>
+        PostgreSQL, Oracle, Redis</p>
+    <p><strong>Message Queue:</strong><br>
+        Kafka</p>
+    <p><strong>Frontend:</strong><br>
+        React.js</p>
+    <p><strong>DevOps & Tools:</strong><br>
+        Docker, GitLab CI/CD, Jenkins</p>
+    <p><strong>Monitoring & Observability:</strong><br>
+        Prometheus, Grafana</p>
+    <p><strong>Architecture:</strong><br>
+        Microservices</p>
+    <hr> -->
+
+
+    <h2>KINH NGHIỆM LÀM VIỆC</h2>
+
+    <h3>Backend Developer | DevOps Engineer</h3>
+    <p><strong>iArt Holding</strong>, Hà Nội<br>
+        <em>Tháng 2/2025 – Hiện tại</em>
+    </p>
+
+    <p>Công ty phát triển sản phẩm nội bộ trong lĩnh vực Print-on-Demand (POD), Drop-shipping & Thương mại điện tử</p>
+
+    <p><strong>Dự án: Vendor</strong> – Hệ thống quản lý vận hành cho đại lý (15 site, 10k users, ~300k orders/tháng)
+    </p>
+
+    <ul>
+        <li>Thiết kế kiến trúc hệ thống, xây dựng codebase và triển khai đa môi trường</li>
+        <li>Phát triển các tính năng core business, review code và mentoring team member</li>
+        <li>Thiết kế và tối ưu hóa CI/CD pipelines (GitLab CI), triển khai staging và production</li>
+        <li>Quản lý vận hành hệ thống, giám sát hiệu suất và xử lý sự cố production</li>
+        <li>Đồng bộ dữ liệu lớn từ DTG, tích hợp thanh toán (MoMo, PayPal, ngân hàng)</li>
+        <li>Xây dựng hệ thống RBAC linh hoạt, xử lý import/export dữ liệu lớn</li>
+    </ul>
+
+    <p><em>Công nghệ: NestJS, PostgreSQL, Redis, Docker, GitLab CI/CD, Prometheus, Grafana</em></p>
+
+    <p><strong>Dự án: DTG</strong> – Hệ thống quản lý đơn hàng & sản phẩm gốc</p>
+
+    <ul>
+        <li>Thiết kế codebase, triển khai hệ thống và quản lý đa môi trường</li>
+        <li>Phát triển module nghiệp vụ phức tạp: quản lý điều chỉnh giá dịch vụ, validate order, tự động book label
+            shipping, phân xưởng sản xuất tối ưu chi phí</li>
+        <li>Quản lý repository, review code và hỗ trợ team member</li>
+        <li>Tối ưu và duy trì CI/CD pipeline, và các hệ thống giám sát</li>
+        <li>Tăng hiệu suất xử lý từ 300 lên 5,000 đơn/ngày, giảm 80% lỗi vận hành do xử lý thủ công bằng Excel</li>
+    </ul>
+
+    <p><em>Công nghệ: NestJS, PostgreSQL, Redis, Docker, GitLab CI/CD, Prometheus, Grafana</em></p>
+
+    <p><strong>Dự án: Factory</strong> – Hệ thống xử lý đơn hàng tại xưởng</p>
+
+    <ul>
+        <li>Làm việc với team outsource để phân tích và nghiệm thu nghiệp vụ</li>
+        <li>Triển khai hệ thống, maintain codebase và hỗ trợ người dùng</li>
+    </ul>
+
+    <p><strong>Dự án khác:</strong></p>
+
+    <ul>
+        <li>Tích hợp AI image generation để tự động tạo ảnh mẫu sản phẩm</li>
+        <li>Xây dựng AI chatbot hỗ trợ onboarding nhân viên mới với tài liệu của công ty</li>
+    </ul>
+
+    <h3>Full Stack Software Engineer</h3>
+    <p><strong>Financial Software Solutions (FSS)</strong>, Hà Nội<br>
+        <em>Tháng 1/2023 – Tháng 2/2025</em>
+    </p>
+
+    <p>Công ty Giải pháp Phần mềm Tài chính</p>
+
+    <p><strong>Dự án: FundTrack, Fundserv</strong> – Nền tảng quản lý đầu tư quỹ mở dành cho nhà đầu tư cá nhân và tổ
+        chức</p>
+
+    <ul>
+        <li>Phát triển tính năng mới và tái cấu trúc các tính năng cũ trên nền tảng web</li>
+        <li>Tối ưu hóa trải nghiệm người dùng bằng các kỹ thuật caching, debounce và throttle</li>
+        <li>Cải thiện hiệu suất truy vấn cơ sở dữ liệu bằng cách sử dụng indexing, join và materialized view</li>
+        <li>Thiết kế và triển khai quy trình CI/CD với Jenkins và GitLab CI để tự động hóa quy trình build và deploy
+        </li>
+        <li>Đóng gói và quản lý môi trường phát triển bằng Docker</li>
+        <li>Thiết lập và duy trì các môi trường Dev, Test và Production cho nhóm phát triển</li>
+        <li>Tham gia vào quá trình tối ưu và đánh giá kiến trúc hệ thống nhằm đảm bảo khả năng mở rộng và ổn định</li>
+        <li>Viết các kịch bản kiểm thử API tự động với công cụ API Dog</li>
+        <li>Hỗ trợ vận hành hệ thống, xử lý hotfix và thực hiện dọn dẹp dữ liệu khi cần thiết</li>
+    </ul>
+
+    <p><em>Công nghệ: Node.js (Sails), React.js, Java, PostgreSQL, Oracle, Redis, Kafka, Docker, Jenkins, GitLab
+            CI</em><br>
+        <em>Kiến trúc: Microservices</em>
+    </p>
+
+    <h3>Dự án cá nhân</h3>
+
+    <p><strong>Ghz store manager</strong> – Hệ thống CRM quản lý</p>
+
+    <ul>
+        <li>Xây dựng hệ thống giám sát hiệu suất real-time với tích hợp Prometheus và Grafana</li>
+        <li>Phát triển API gateway và middleware để thu thập metrics, tracing và logging</li>
+        <li>Thiết kế dashboard tùy chỉnh để theo dõi latency, throughput và error rate</li>
+        <li>Tích hợp alerting system để cảnh báo khi hệ thống vượt ngưỡng cho phép</li>
+        <li>Xây dựng test suite tự động để load testing và stress testing</li>
+        <li>Container hóa ứng dụng với Docker và triển khai CI/CD pipeline</li>
+    </ul>
+
+    <p><strong>CI/CD custom</strong> – Hệ thống CI/CD sử dụng tất cả open source</p>
+
+    <ul>
+        <li>CI/CD: Jenkins</li>
+        <li>Log: Prometheus, Grafana</li>
+    </ul>
+
+    <h2>THÔNG TIN KHÁC</h2>
+
+    <p><strong>Backend Development:</strong><br>
+        Node.js, NestJS, Java, Sails.js</p>
+
+    <p><strong>Database:</strong><br>
+        PostgreSQL, Oracle, Redis</p>
+
+    <p><strong>Message Queue:</strong><br>
+        Kafka</p>
+
+    <p><strong>Frontend:</strong><br>
+        React.js</p>
+
+    <p><strong>DevOps & Tools:</strong><br>
+        Docker, GitLab CI/CD, Jenkins</p>
+
+    <p><strong>Monitoring & Observability:</strong><br>
+        Prometheus, Grafana</p>
+
+    <p><strong>Architecture:</strong><br>
+        Microservices</p>
+
+    <script>
+        // Tạo mục lục tự động từ các h2
+        document.addEventListener('DOMContentLoaded', function () {
+            const h2Elements = document.querySelectorAll('h2');
+            const tocList = document.getElementById('tocList');
+
+            h2Elements.forEach((h2, index) => {
+                // Tạo ID cho h2 nếu chưa có
+                const id = h2.id || `section-${index}`;
+                h2.id = id;
+
+                // Tạo link trong mục lục
+                const li = document.createElement('li');
+                li.className = 'toc-item';
+                const link = document.createElement('a');
+                link.href = `#${id}`;
+                link.className = 'toc-link';
+                link.textContent = h2.textContent.trim();
+
+                // Smooth scroll khi click
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.getElementById(id);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+
+                li.appendChild(link);
+                tocList.appendChild(li);
+            });
+
+            // Highlight mục lục khi scroll
+            const tocLinks = document.querySelectorAll('.toc-link');
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -70% 0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    const id = entry.target.id;
+                    const tocLink = document.querySelector(`.toc-link[href="#${id}"]`);
+                    if (tocLink) {
+                        if (entry.isIntersecting) {
+                            // Xóa active từ tất cả links
+                            tocLinks.forEach(link => link.classList.remove('active'));
+                            // Thêm active cho link hiện tại
+                            tocLink.classList.add('active');
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            h2Elements.forEach(h2 => observer.observe(h2));
+        });
+    </script>
+</body>
+
+</html>

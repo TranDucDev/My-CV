@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Tran Ngoc Minh Duc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Choose one of the fonts below by uncommenting -->
+    
+    <!-- Option 1: Inter (Modern, Professional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Option 2: Roboto (Clean, Readable) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
+    
+    <!-- Option 3: Open Sans (Friendly, Professional) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    
+    <!-- Option 4: Lato (Elegant, Modern) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+    
+    <!-- Option 5: Source Sans Pro (Professional) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    
+    <!-- Option 6: Merriweather (Serif, Academic) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet"> -->
+    
+    <style>
+        /* ===== FONT SELECTION ===== */
+        /* Change font-family here to select different font */
+        
+        /* Option 1: Inter (Default - Modern) */
+        * {
+            font-family: 'Inter', 'Arial', sans-serif;
+        }
+        
+        /* Option 2: Roboto */
+        /* * {
+            font-family: 'Roboto', 'Arial', sans-serif;
+        } */
+        
+        /* Option 3: Open Sans */
+        /* * {
+            font-family: 'Open Sans', 'Arial', sans-serif;
+        } */
+        
+        /* Option 4: Lato */
+        /* * {
+            font-family: 'Lato', 'Arial', sans-serif;
+        } */
+        
+        /* Option 5: Source Sans Pro */
+        /* * {
+            font-family: 'Source Sans Pro', 'Arial', sans-serif;
+        } */
+        
+        /* Option 6: Merriweather (Serif) */
+        /* * {
+            font-family: 'Merriweather', 'Times New Roman', serif;
+        } */
+        
+        /* Option 7: System Fonts (No internet required) */
+        /* * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        } */
+        
+        /* Option 8: Times New Roman (Classic) */
+        /* * {
+            font-family: 'Times New Roman', Times, serif;
+        } */
+        
+        /* Option 9: Arial (Standard) */
+        /* * {
+            font-family: Arial, Helvetica, sans-serif;
+        } */
+        
+        /* ===== LAYOUT & STYLING ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 14pt;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #333;
+            padding-bottom: 6px;
+            color: #000;
+        }
+        
+        h3 {
+            font-size: 12pt;
+            font-weight: 600;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            color: #000;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 6px;
+            line-height: 1.6;
+        }
+        
+        strong {
+            font-weight: 600;
+        }
+        
+        em {
+            font-style: italic;
+            color: #555;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                padding: 15mm;
+                font-size: 10pt;
+            }
+            
+            @page {
+                margin: 0;
+                size: A4;
+            }
+            
+            h1 {
+                font-size: 22pt;
+            }
+            
+            h2 {
+                font-size: 13pt;
+            }
+            
+            h3 {
+                font-size: 11pt;
+            }
+            
+            /* Avoid page break in section */
+            h2, h3 {
+                page-break-after: avoid;
+            }
+            
+            ul {
+                page-break-inside: avoid;
+            }
+        }
+        
+        /* Screen styles - Button to export PDF */
+        @media screen {
+            .export-btn {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #0066cc;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 600;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                z-index: 1000;
+            }
+            
+            .export-btn:hover {
+                background: #0052a3;
+            }
+        }
+        
+        @media print {
+            .export-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="export-btn" onclick="window.print()">📄 Export PDF</button>
+    
+    <h1>TRAN NGOC MINH DUC</h1>
+    
+    <p><strong>Backend Developer | DevOps Engineer</strong></p>
+    
+    <p>Hanoi, Vietnam | tranngocminhduc2411@gmail.com | <a href="https://www.linkedin.com/in/tran-ngoc-minh-duc-521a30247/">LinkedIn</a></p>
+    
+    <hr>
+    
+    <h2>WORK EXPERIENCE</h2>
+    
+    <h3>Backend Developer | DevOps Engineer</h3>
+    <p><strong>iArt Holding</strong>, Hanoi<br>
+    <em>February 2025 – Present</em></p>
+    
+    <p>Company developing internal products in Print-on-Demand (POD), Drop-shipping & E-commerce</p>
+    
+    <p><strong>Project: Vendor</strong> – Vendor operations management system (15 sites, 10k users, ~300k orders/month)</p>
+    
+    <ul>
+        <li>Designed system architecture, built codebase and deployed across multiple environments</li>
+        <li>Developed core business features, conducted code reviews and mentored team members</li>
+        <li>Designed and optimized CI/CD pipelines (GitLab CI), deployed staging and production environments</li>
+        <li>Managed system operations, monitored performance and resolved production issues</li>
+        <li>Synchronized large datasets from DTG, integrated payment gateways (MoMo, PayPal, banking)</li>
+        <li>Built flexible RBAC system, handled large data import/export operations</li>
+    </ul>
+    
+    <p><em>Technologies: NestJS, PostgreSQL, Redis, Docker, GitLab CI/CD, Prometheus, Grafana</em></p>
+    
+    <p><strong>Project: DTG</strong> – Original order and product management system</p>
+    
+    <ul>
+        <li>Designed codebase, deployed system and managed multiple environments</li>
+        <li>Developed complex business modules: service price adjustment management, order validation, automatic shipping label booking, cost-optimized production workshop allocation</li>
+        <li>Managed repository, conducted code reviews and supported team members</li>
+        <li>Optimized and maintained CI/CD pipeline and monitoring systems</li>
+        <li>Increased processing capacity from 300 to 5,000 orders/day, reduced 80% of operational errors caused by manual Excel processing</li>
+    </ul>
+    
+    <p><em>Technologies: NestJS, PostgreSQL, Redis, Docker, GitLab CI/CD, Prometheus, Grafana</em></p>
+    
+    <p><strong>Project: Factory</strong> – Factory order processing system</p>
+    
+    <ul>
+        <li>Collaborated with outsourced team to analyze and validate business requirements</li>
+        <li>Deployed system, maintained codebase and provided user support</li>
+    </ul>
+    
+    <p><strong>Other Projects:</strong></p>
+    
+    <ul>
+        <li>Integrated AI image generation to automatically create product sample images</li>
+        <li>Built AI chatbot to support new employee onboarding with company documentation</li>
+    </ul>
+    
+    <hr>
+    
+    <h3>Full Stack Software Engineer</h3>
+    <p><strong>Financial Software Solutions (FSS)</strong>, Hanoi<br>
+    <em>January 2023 – February 2025</em></p>
+    
+    <p>Financial Software Solutions Company</p>
+    
+    <p><strong>Project: FundTrack, Fundserv</strong> – Open-end fund investment management platform for individual and institutional investors</p>
+    
+    <ul>
+        <li>Developed new features and refactored existing features on web platform</li>
+        <li>Optimized user experience using caching, debounce and throttle techniques</li>
+        <li>Improved database query performance using indexing, joins and materialized views</li>
+        <li>Designed and implemented CI/CD processes with Jenkins and GitLab CI to automate build and deploy workflows</li>
+        <li>Containerized and managed development environment using Docker</li>
+        <li>Set up and maintained Dev, Test and Production environments for development team</li>
+        <li>Participated in system architecture optimization and evaluation to ensure scalability and stability</li>
+        <li>Wrote automated API test scripts using API Dog tool</li>
+        <li>Supported system operations, handled hotfixes and performed data cleanup when necessary</li>
+    </ul>
+    
+    <p><em>Technologies: Node.js (Sails), React.js, Java, PostgreSQL, Oracle, Redis, Kafka, Docker, Jenkins, GitLab CI</em><br>
+    <em>Architecture: Microservices</em></p>
+    
+    <hr>
+    
+    <h2>TECHNICAL SKILLS</h2>
+    
+    <p><strong>Backend Development:</strong><br>
+    Node.js, NestJS, Java, Sails.js</p>
+    
+    <p><strong>Database:</strong><br>
+    PostgreSQL, Oracle, Redis</p>
+    
+    <p><strong>Message Queue:</strong><br>
+    Kafka</p>
+    
+    <p><strong>Frontend:</strong><br>
+    React.js</p>
+    
+    <p><strong>DevOps & Tools:</strong><br>
+    Docker, GitLab CI/CD, Jenkins</p>
+    
+    <p><strong>Monitoring & Observability:</strong><br>
+    Prometheus, Grafana</p>
+    
+    <p><strong>Architecture:</strong><br>
+    Microservices</p>
+    
+</body>
+</html>
+
